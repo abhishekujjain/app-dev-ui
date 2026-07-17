@@ -1,0 +1,422 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<p class="p1">Below is a consolidated, reusable Privacy Policy for <a href="http://intelligentmind.online"><span class="s1"><b>intelligentmind.online</b></span></a> and all current and future products under the <span class="s1"><b>Intelligent Mind</b></span> brand.</p>
+<h1><span class="s1"><b>Privacy Policy</b></span></h1>
+<span class="s1"><b>Organization:</b></span> Intelligent Mind<br>
+<span class="s1"><b>Last Updated:</b></span> July 16, 2026</p>
+<hr>
+<p class="p4">Welcome to <span class="s1"><b>Intelligent Mind</b></span> (“we”, “us”, “our”). This Privacy Policy explains how we collect, use, disclose, and safeguard information when you visit <a href="http://intelligentmind.online"><span class="s1"><b>intelligentmind.online</b></span></a>, use our mobile applications, websites, APIs, software, and other digital products or services (collectively, the <span class="s1"><b>“Services”</b></span>).</p>
+<p class="p4">By accessing or using our Services, you agree to the practices described in this Privacy Policy.</p>
+<p class="p3">This Privacy Policy is intended to comply with applicable privacy laws and the requirements of platforms including, but not limited to, the <span class="s1"><b>Google Play Developer Program Policies</b></span>, <span class="s1"><b>Apple App Store Review Guidelines</b></span>, and other applicable regulations.</p>
+<hr>
+<h1><span class="s1"><b>1. Information We Collect</b></span></h1>
+<p class="p4">Depending on the Service you use, we may collect the following categories of information.</p>
+<h2><span class="s1"><b>a) Location Information</b></span></h2>
+<p class="p5">Some of our Services may collect <span class="s1"><b>precise (GPS)</b></span> and/or <span class="s1"><b>approximate (network-based)</b></span> location information to:</p>
+<ul><li>Provide location-based features</li><li>Display maps and navigation</li><li>Search nearby places or services</li><li>Improve service accuracy</li><li>Personalize your experience</li><li>Provide weather or other location-aware features</li></ul>
+<p class="p3">Location information is accessed only with your permission and only when required for the functionality of the Service you are using, unless otherwise disclosed and separately consented to.</p>
+<hr>
+<h2><span class="s1"><b>b) Device and Usage Information</b></span></h2>
+<p class="p5">We may automatically collect:</p>
+<ul><li>Device identifiers (including Advertising ID where applicable)</li><li>Device model and manufacturer</li><li>Operating system version</li><li>Language and region settings</li><li>App or website usage information</li><li>Crash reports</li><li>Diagnostics</li><li>Performance metrics</li><li>IP address</li><li>Browser type (for websites)</li></ul>
+<hr>
+<h2><span class="s1"><b>c) Information You Provide</b></span></h2>
+<p class="p5">Depending on the Service, you may voluntarily provide information such as:</p>
+<ul><li>Name</li><li>Email address</li><li>Feedback</li><li>Support requests</li><li>Account information</li><li>Other information you choose to submit</li></ul>
+<hr>
+<h2><span class="s1"><b>d) Cookies and Similar Technologies</b></span></h2>
+<p class="p5">Our website and certain Services may use cookies, local storage, analytics technologies, and similar technologies to:</p>
+<ul><li>Remember preferences</li><li>Improve user experience</li><li>Measure website traffic</li><li>Analyze usage</li><li>Enhance security</li></ul>
+<p class="p3">You may control cookies through your browser settings. Disabling cookies may affect certain functionality.</p>
+<hr>
+<h2><span class="s1"><b>e) Information Collected by Third-Party Services</b></span></h2>
+<p class="p6">Depending on the Service you use, we may integrate trusted third-party SDKs, APIs, and services including, but not limited to:</p>
+
+
+
+Service | Purpose
+-- | --
+Google Maps Platform | Maps and navigation
+Google Places API | Place search
+Google AdMob | Advertising
+Firebase | Analytics, Crash Reporting, Notifications
+Google Analytics | Website and app analytics
+OpenWeatherMap | Weather information
+Authentication Providers | Sign-in services
+Payment Providers | Payment processing
+Cloud Hosting Providers | Infrastructure and storage
+
+
+
+
+<p class="p1">These providers may independently collect and process information according to their own Privacy Policies.</p>
+<p class="p2">We do not control how third-party providers process information beyond what is necessary for providing their services.</p>
+<hr>
+<h1><span class="s1"><b>2. How We Use Information</b></span></h1>
+<p class="p4">We may use information to:</p>
+<ul><li>Provide and maintain our Services</li><li>Enable requested features</li><li>Improve products and user experience</li><li>Personalize content</li><li>Respond to support requests</li><li>Diagnose technical issues</li><li>Detect fraud, abuse, or security incidents</li><li>Display advertisements where applicable</li><li>Perform analytics</li><li>Send important service notifications</li><li>Comply with legal obligations</li><li>Protect our rights and users</li></ul>
+<p class="p3"><b>We do not sell your personal information to third parties.</b></p>
+<hr>
+<h1><span class="s1"><b>3. Data Sharing</b></span></h1>
+<p class="p4">We may share information with:</p>
+<ul><li>Service providers and technology partners</li><li>Cloud hosting providers</li><li>Analytics providers</li><li>Advertising partners (where applicable)</li><li>Payment processors</li><li>Authentication providers</li><li>Legal authorities when required by law</li><li>Professional advisors</li><li>Successor organizations in connection with a merger, acquisition, financing, or sale of assets</li></ul>
+<p class="p2">We do not knowingly disclose precise location information to advertisers except as necessary through authorized third-party SDKs operating under their own privacy practices and applicable consent mechanisms.</p>
+<hr>
+<h1><span class="s1"><b>4. Advertising</b></span></h1>
+<p class="p1">Some Services may display advertisements using platforms such as Google AdMob or other advertising providers.</p>
+<p class="p4">Advertising partners may collect:</p>
+<ul><li>Advertising Identifier</li><li>Device information</li><li>Approximate location</li><li>Ad interaction information</li></ul>
+<p class="p4">Depending on your device and jurisdiction, you may:</p>
+<ul><li>Disable personalized advertising</li><li>Reset your Advertising ID</li><li>Manage consent preferences</li><li>Opt out where supported</li></ul>
+<p class="p2">Not all Services contain advertisements.</p>
+<hr>
+<h1><span class="s1"><b>5. Analytics</b></span></h1>
+<p class="p4">We may use analytics services to understand:</p>
+<ul><li>Feature usage</li><li>Performance</li><li>Stability</li><li>Crash reports</li><li>User engagement</li></ul>
+<p class="p2">Analytics information is generally aggregated or pseudonymized where appropriate.</p>
+<hr>
+<h1><span class="s1"><b>6. Your Rights</b></span></h1>
+<p class="p4">Depending on your location and applicable law, you may have the right to:</p>
+<ul><li>Access your information</li><li>Correct inaccurate information</li><li>Request deletion</li><li>Restrict processing</li><li>Object to certain processing</li><li>Withdraw consent</li><li>Receive a copy of your information where applicable</li><li>Lodge a complaint with an appropriate authority</li></ul>
+<p class="p1">To exercise these rights, contact:</p>
+<p class="p3"><a href="mailto:intelligentmindforyou@gmail.com"><b>intelligentmindforyou@gmail.com</b></a></p>
+<hr>
+<h1><span class="s1"><b>7. Data Retention</b></span></h1>
+<p class="p4">We retain information only for as long as necessary to:</p>
+<ul><li>Provide Services</li><li>Comply with legal obligations</li><li>Resolve disputes</li><li>Enforce agreements</li><li>Improve security</li></ul>
+<p class="p2">Retention periods vary depending on the type of information and applicable legal requirements.</p>
+<hr>
+<h1><span class="s1"><b>8. Data Security</b></span></h1>
+<p class="p1">We implement reasonable administrative, technical, and organizational safeguards designed to protect your information from unauthorized access, disclosure, alteration, or destruction.</p>
+<p class="p2">However, no method of electronic storage or internet transmission is completely secure. Accordingly, we cannot guarantee absolute security.</p>
+<hr>
+<h1><span class="s1"><b>9. Children’s Privacy</b></span></h1>
+<p class="p1">Our Services are not directed toward children under the applicable age of digital consent unless specifically indicated.</p>
+<p class="p2">We do not knowingly collect personal information from children without appropriate authorization. If you believe a child has provided personal information, please contact us so we can take appropriate action.</p>
+<hr>
+<h1><span class="s1"><b>10. International Data Transfers</b></span></h1>
+<p class="p1">Your information may be processed or stored in countries where we or our service providers operate. These countries may have data protection laws different from those in your jurisdiction.</p>
+<p class="p2">By using our Services, you acknowledge and consent to such transfers where permitted by law.</p>
+<hr>
+<h1><span class="s1"><b>11. Third-Party Websites and Services</b></span></h1>
+<p class="p1">Our Services may contain links to third-party websites or services.</p>
+<p class="p2">We are not responsible for the privacy practices, content, or policies of third-party services. We encourage you to review their privacy policies before using them.</p>
+<hr>
+<h1><span class="s1"><b>12. Google Play and App Store Disclosure</b></span></h1>
+<p class="p4">Some of our mobile applications may collect information such as:</p>
+<ul><li>Precise or approximate location</li><li>Device identifiers</li><li>Diagnostics</li><li>Crash reports</li><li>Analytics</li><li>Advertising information (where applicable)</li></ul>
+<p class="p2">Each application’s <span class="s1"><b>Google Play Data Safety</b></span> section or equivalent app store disclosure accurately reflects the information collected by that specific application.</p>
+<hr>
+<h1><span class="s1"><b>13. Changes to This Privacy Policy</b></span></h1>
+<p class="p1">We may update this Privacy Policy periodically.</p>
+<p class="p1">Changes become effective upon publication with an updated <span class="s1"><b>Last Updated</b></span> date. Continued use of our Services after changes are posted constitutes acceptance of the revised Privacy Policy.</p>
+<p class="p2">Where required by law, we will provide additional notice of material changes.</p>
+<hr>
+<h1><span class="s1"><b>14. Governing Law</b></span></h1>
+<p class="p1">This Privacy Policy shall be governed by and interpreted in accordance with the laws of <span class="s1"><b>India</b></span>, without regard to conflict of law principles.</p>
+<p class="p2">Any disputes relating to this Privacy Policy shall be subject to the jurisdiction of the competent courts in India.</p>
+<hr>
+<h1><span class="s1"><b>15. Contact Us</b></span></h1>
+<p class="p1">If you have any questions, concerns, or requests regarding this Privacy Policy or our Services, please contact us:</p>
+<p class="p1"><b>Website:</b></span> <a href="https://intelligentmind.online">https://intelligentmind.online</a></p>
+<p class="p2"><b>Email:</b></span> <a href="mailto:intelligentmindforyou@gmail.com">intelligentmindforyou@gmail.com</a></p>
+<hr>
+<h1><span class="s1"><b>16. Acceptance of This Policy</b></span></h1>
+<p class="p1">By accessing or using any website, mobile application, software, API, or digital service provided by <span class="s1"><b>Intelligent Mind</b></span>, you acknowledge that you have read, understood, and agree to this Privacy Policy.</p>
+<p class="p1">This version is generic enough to cover <a href="http://intelligentmind.online"><span class="s1"><b>intelligentmind.online</b></span></a>, all current Android apps, future Android/iOS apps, web applications, APIs, and other digital services while preserving the legal safeguards commonly expected by app stores and privacy regulations.</p>
+
+</body>
+</html>Below is a consolidated, reusable Privacy Policy for [intelligentmind.online](http://intelligentmind.online/) and all current and future products under the Intelligent Mind brand.
+
+Privacy Policy
+
+Website: [intelligentmind.online](http://intelligentmind.online/)
+Organization: Intelligent Mind
+Contact Email: [intelligentmindforyou@gmail.com](mailto:intelligentmindforyou@gmail.com)
+Last Updated: July 16, 2026
+
+⸻
+
+Welcome to Intelligent Mind (“we”, “us”, “our”). This Privacy Policy explains how we collect, use, disclose, and safeguard information when you visit [intelligentmind.online](http://intelligentmind.online/), use our mobile applications, websites, APIs, software, and other digital products or services (collectively, the “Services”).
+
+By accessing or using our Services, you agree to the practices described in this Privacy Policy.
+
+This Privacy Policy is intended to comply with applicable privacy laws and the requirements of platforms including, but not limited to, the Google Play Developer Program Policies, Apple App Store Review Guidelines, and other applicable regulations.
+
+⸻
+
+1. Information We Collect
+
+Depending on the Service you use, we may collect the following categories of information.
+
+a) Location Information
+
+Some of our Services may collect precise (GPS) and/or approximate (network-based) location information to:
+
+* Provide location-based features
+* Display maps and navigation
+* Search nearby places or services
+* Improve service accuracy
+* Personalize your experience
+* Provide weather or other location-aware features
+
+Location information is accessed only with your permission and only when required for the functionality of the Service you are using, unless otherwise disclosed and separately consented to.
+
+⸻
+
+b) Device and Usage Information
+
+We may automatically collect:
+
+* Device identifiers (including Advertising ID where applicable)
+* Device model and manufacturer
+* Operating system version
+* Language and region settings
+* App or website usage information
+* Crash reports
+* Diagnostics
+* Performance metrics
+* IP address
+* Browser type (for websites)
+
+⸻
+
+c) Information You Provide
+
+Depending on the Service, you may voluntarily provide information such as:
+
+* Name
+* Email address
+* Feedback
+* Support requests
+* Account information
+* Other information you choose to submit
+
+⸻
+
+d) Cookies and Similar Technologies
+
+Our website and certain Services may use cookies, local storage, analytics technologies, and similar technologies to:
+
+* Remember preferences
+* Improve user experience
+* Measure website traffic
+* Analyze usage
+* Enhance security
+
+You may control cookies through your browser settings. Disabling cookies may affect certain functionality.
+
+⸻
+
+e) Information Collected by Third-Party Services
+
+Depending on the Service you use, we may integrate trusted third-party SDKs, APIs, and services including, but not limited to:
+
+Service	Purpose
+Google Maps Platform	Maps and navigation
+Google Places API	Place search
+Google AdMob	Advertising
+Firebase	Analytics, Crash Reporting, Notifications
+Google Analytics	Website and app analytics
+OpenWeatherMap	Weather information
+Authentication Providers	Sign-in services
+Payment Providers	Payment processing
+Cloud Hosting Providers	Infrastructure and storage
+
+These providers may independently collect and process information according to their own Privacy Policies.
+
+We do not control how third-party providers process information beyond what is necessary for providing their services.
+
+⸻
+
+2. How We Use Information
+
+We may use information to:
+
+* Provide and maintain our Services
+* Enable requested features
+* Improve products and user experience
+* Personalize content
+* Respond to support requests
+* Diagnose technical issues
+* Detect fraud, abuse, or security incidents
+* Display advertisements where applicable
+* Perform analytics
+* Send important service notifications
+* Comply with legal obligations
+* Protect our rights and users
+
+We do not sell your personal information to third parties.
+
+⸻
+
+3. Data Sharing
+
+We may share information with:
+
+* Service providers and technology partners
+* Cloud hosting providers
+* Analytics providers
+* Advertising partners (where applicable)
+* Payment processors
+* Authentication providers
+* Legal authorities when required by law
+* Professional advisors
+* Successor organizations in connection with a merger, acquisition, financing, or sale of assets
+
+We do not knowingly disclose precise location information to advertisers except as necessary through authorized third-party SDKs operating under their own privacy practices and applicable consent mechanisms.
+
+⸻
+
+4. Advertising
+
+Some Services may display advertisements using platforms such as Google AdMob or other advertising providers.
+
+Advertising partners may collect:
+
+* Advertising Identifier
+* Device information
+* Approximate location
+* Ad interaction information
+
+Depending on your device and jurisdiction, you may:
+
+* Disable personalized advertising
+* Reset your Advertising ID
+* Manage consent preferences
+* Opt out where supported
+
+Not all Services contain advertisements.
+
+⸻
+
+5. Analytics
+
+We may use analytics services to understand:
+
+* Feature usage
+* Performance
+* Stability
+* Crash reports
+* User engagement
+
+Analytics information is generally aggregated or pseudonymized where appropriate.
+
+⸻
+
+6. Your Rights
+
+Depending on your location and applicable law, you may have the right to:
+
+* Access your information
+* Correct inaccurate information
+* Request deletion
+* Restrict processing
+* Object to certain processing
+* Withdraw consent
+* Receive a copy of your information where applicable
+* Lodge a complaint with an appropriate authority
+
+To exercise these rights, contact:
+
+[intelligentmindforyou@gmail.com](mailto:intelligentmindforyou@gmail.com)
+
+⸻
+
+7. Data Retention
+
+We retain information only for as long as necessary to:
+
+* Provide Services
+* Comply with legal obligations
+* Resolve disputes
+* Enforce agreements
+* Improve security
+
+Retention periods vary depending on the type of information and applicable legal requirements.
+
+⸻
+
+8. Data Security
+
+We implement reasonable administrative, technical, and organizational safeguards designed to protect your information from unauthorized access, disclosure, alteration, or destruction.
+
+However, no method of electronic storage or internet transmission is completely secure. Accordingly, we cannot guarantee absolute security.
+
+⸻
+
+9. Children’s Privacy
+
+Our Services are not directed toward children under the applicable age of digital consent unless specifically indicated.
+
+We do not knowingly collect personal information from children without appropriate authorization. If you believe a child has provided personal information, please contact us so we can take appropriate action.
+
+⸻
+
+10. International Data Transfers
+
+Your information may be processed or stored in countries where we or our service providers operate. These countries may have data protection laws different from those in your jurisdiction.
+
+By using our Services, you acknowledge and consent to such transfers where permitted by law.
+
+⸻
+
+11. Third-Party Websites and Services
+
+Our Services may contain links to third-party websites or services.
+
+We are not responsible for the privacy practices, content, or policies of third-party services. We encourage you to review their privacy policies before using them.
+
+⸻
+
+12. Google Play and App Store Disclosure
+
+Some of our mobile applications may collect information such as:
+
+* Precise or approximate location
+* Device identifiers
+* Diagnostics
+* Crash reports
+* Analytics
+* Advertising information (where applicable)
+
+Each application’s Google Play Data Safety section or equivalent app store disclosure accurately reflects the information collected by that specific application.
+
+⸻
+
+13. Changes to This Privacy Policy
+
+We may update this Privacy Policy periodically.
+
+Changes become effective upon publication with an updated Last Updated date. Continued use of our Services after changes are posted constitutes acceptance of the revised Privacy Policy.
+
+Where required by law, we will provide additional notice of material changes.
+
+⸻
+
+14. Governing Law
+
+This Privacy Policy shall be governed by and interpreted in accordance with the laws of India, without regard to conflict of law principles.
+
+Any disputes relating to this Privacy Policy shall be subject to the jurisdiction of the competent courts in India.
+
+⸻
+
+15. Contact Us
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or our Services, please contact us:
+
+Website: https://intelligentmind.online/
+
+
+⸻
+
+16. Acceptance of This Policy
+
+By accessing or using any website, mobile application, software, API, or digital service provided by Intelligent Mind, you acknowledge that you have read, understood, and agree to this Privacy Policy.
+
+This version is generic enough to cover [intelligentmind.online](http://intelligentmind.online/), all current Android apps, future Android/iOS apps, web applications, APIs, and other digital services while preserving the legal safeguards commonly expected by app stores and privacy regulations.
