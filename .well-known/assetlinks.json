@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "online.intelligentmind.localplacesmap",
+      "sha256_cert_fingerprints": [
+        "D7:8D:3B:02:4E:84:05:13:02:AB:BA:41:E6:C6:AE:30:2F:77:2C:DF:73:2B:C9:88:9F:F6:7C:AB:98:66:02:1E"
+      ]
+    }
+  }
+]
