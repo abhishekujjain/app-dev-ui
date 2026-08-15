@@ -56,6 +56,27 @@
     <image:image><image:loc>https://www.intelligentmind.online/assets/lat-long.png</image:loc><image:title>GPS latitude longitude App icon</image:title></image:image>
   </url>
   <url>
+    <loc>https://www.intelligentmind.online/gps-camera.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image><image:loc>https://www.intelligentmind.online/assets/geo-camera-map.png</image:loc><image:title>GPS camera app icon</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.intelligentmind.online/compass.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image><image:loc>https://www.intelligentmind.online/assets/digital-compass.png</image:loc><image:title>compass app icon</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.intelligentmind.online/latitude-longitude.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image><image:loc>https://www.intelligentmind.online/assets/lat-long.png</image:loc><image:title>latitude longitude app icon</image:title></image:image>
+  </url>
+  <url>
     <loc>https://www.intelligentmind.online/localmap.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
