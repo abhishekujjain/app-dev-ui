@@ -56,6 +56,16 @@
     <image:image><image:loc>https://www.intelligentmind.online/assets/lat-long.png</image:loc><image:title>Lat long GPS coordinates Android app icon</image:title></image:image>
   </url>
   <url>
+    <loc>https://www.intelligentmind.online/localmap.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://www.intelligentmind.online/assets/local-map.png</image:loc>
+      <image:title>localmap Android app icon</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.intelligentmind.online/local-map.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
