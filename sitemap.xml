@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.intelligentmind.online/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -24,61 +24,79 @@
     </image:image>
     <image:image>
       <image:loc>https://www.intelligentmind.online/assets/lat-long.png</image:loc>
-      <image:title>GPS latitude longitude App Android app</image:title>
+      <image:title>GPS Coordinates Android app</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.intelligentmind.online/assets/ludo-champs-game.png</image:loc>
+      <image:title>Ludo Champs Game Android app</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/geo-camera-map.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image><image:loc>https://www.intelligentmind.online/assets/geo-camera-map.png</image:loc><image:title>Geo Camera Map GPS camera app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/mausam.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image><image:loc>https://www.intelligentmind.online/assets/mausam.webp</image:loc><image:title>Weather app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/digital-compass.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image><image:loc>https://www.intelligentmind.online/assets/digital-compass.png</image:loc><image:title>Digital Compass Android app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/lat-long.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <image:image><image:loc>https://www.intelligentmind.online/assets/lat-long.png</image:loc><image:title>GPS latitude longitude App icon</image:title></image:image>
+    <image:image><image:loc>https://www.intelligentmind.online/assets/lat-long.png</image:loc><image:title>GPS Coordinates app icon</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.intelligentmind.online/ludo-champs-game.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://www.intelligentmind.online/assets/ludo-champs-game.png</image:loc><image:title>Ludo Champs Game app icon</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.intelligentmind.online/ludo-game.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image><image:loc>https://www.intelligentmind.online/assets/ludo-champs-game.png</image:loc><image:title>Ludo game app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/gps-camera.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <image:image><image:loc>https://www.intelligentmind.online/assets/geo-camera-map.png</image:loc><image:title>GPS camera app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/compass.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <image:image><image:loc>https://www.intelligentmind.online/assets/digital-compass.png</image:loc><image:title>compass app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/latitude-longitude.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <image:image><image:loc>https://www.intelligentmind.online/assets/lat-long.png</image:loc><image:title>latitude longitude app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/localmap.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <image:image>
@@ -88,7 +106,7 @@
   </url>
   <url>
     <loc>https://www.intelligentmind.online/local-map.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
