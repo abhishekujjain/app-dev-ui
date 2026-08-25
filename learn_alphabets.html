@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A-Z Alphabet Adventure | Learn English Letters with Phonics for Kids | Intelligent Mind</title>
-    <meta name="description" content="Free interactive A-Z English alphabet for kids. Hear phonics pronunciation, practice tracing letters, spell your name, and learn all 26 letters with fun example words — Apple, Ball, Cat and more.">
-    <meta name="keywords" content="English alphabet, A-Z letters, learn alphabet for kids, phonics, letter tracing, alphabet adventure, preschool letters, ABC learning, alphabet sounds, spell your name">
+    <meta name="description" content="Free interactive A-Z English alphabet for kids. Hear phonics pronunciation, spell your name, and learn all 26 letters with fun example words — Apple, Ball, Cat and more.">
+    <meta name="keywords" content="English alphabet, A-Z letters, learn alphabet for kids, phonics, learn alphabets, preschool letters, ABC learning, alphabet sounds, spell your name">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta name="theme-color" content="#667eea">
     <meta name="application-name" content="A-Z Alphabet Adventure">
-    <link rel="canonical" href="https://www.intelligentmind.online/alphabet_selection.html">
-    <link rel="alternate" hreflang="en" href="https://www.intelligentmind.online/alphabet_selection.html">
-    <link rel="alternate" hreflang="x-default" href="https://www.intelligentmind.online/alphabet_selection.html">
+    <link rel="canonical" href="https://www.intelligentmind.online/learn_alphabets.html">
+    <link rel="alternate" hreflang="en" href="https://www.intelligentmind.online/learn_alphabets.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.intelligentmind.online/learn_alphabets.html">
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Intelligent Mind">
     <meta property="og:title" content="A-Z Alphabet Adventure — Learn English Letters with Phonics">
-    <meta property="og:description" content="Interactive A-Z alphabet for kids: tap Phonics to hear letter sounds, Trace to practice writing, and spell your name. Free in any browser.">
-    <meta property="og:url" content="https://www.intelligentmind.online/alphabet_selection.html">
+    <meta property="og:description" content="Interactive A-Z alphabet for kids: tap Phonics to hear letter sounds and spell your name. Free in any browser.">
+    <meta property="og:url" content="https://www.intelligentmind.online/learn_alphabets.html">
     <meta property="og:image" content="https://www.intelligentmind.online/assets/favicon.png">
     <meta property="og:image:alt" content="A-Z Alphabet Adventure for kids">
     <meta property="og:locale" content="en_US">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="A-Z Alphabet Adventure — Learn English Letters">
-    <meta name="twitter:description" content="Free interactive alphabet with phonics, letter tracing and name spelling for preschoolers and kids.">
+    <meta name="twitter:description" content="Free interactive alphabet with phonics and name spelling for preschoolers and kids.">
     <meta name="twitter:image" content="https://www.intelligentmind.online/assets/favicon.png">
 
     <script type="application/ld+json">
@@ -35,7 +35,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.intelligentmind.online/" },
-        { "@type": "ListItem", "position": 2, "name": "A-Z Alphabet Adventure", "item": "https://www.intelligentmind.online/alphabet_selection.html" }
+        { "@type": "ListItem", "position": 2, "name": "A-Z Alphabet Adventure", "item": "https://www.intelligentmind.online/learn_alphabets.html" }
       ]
     }
     </script>
@@ -45,8 +45,8 @@
       "@type": "LearningResource",
       "name": "A-Z Alphabet Adventure",
       "alternateName": ["English alphabet for kids", "ABC learning", "phonics alphabet"],
-      "description": "Interactive A-Z English alphabet with phonics audio, letter tracing and personalized name spelling for children.",
-      "url": "https://www.intelligentmind.online/alphabet_selection.html",
+      "description": "Interactive A-Z English alphabet with phonics audio and personalized name spelling for children.",
+      "url": "https://www.intelligentmind.online/learn_alphabets.html",
       "inLanguage": "en",
       "learningResourceType": "Interactive tool",
       "educationalLevel": "Preschool",
@@ -74,7 +74,7 @@
           "name": "How do kids learn the English alphabet on this page?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kids scroll through all 26 letter cards from A to Z. Each card has a Phonics button to hear the letter sound and example word, and a Trace button to practice writing the letter."
+            "text": "Kids scroll through all 26 letter cards from A to Z. Each card has a Phonics button to hear the letter sound and example word."
           }
         },
         {
@@ -376,9 +376,8 @@
             margin-top: 8px;
         }
 
-        .phonics-btn,
-        .trace-btn {
-            flex: 1;
+        .phonics-btn {
+            width: 100%;
             min-height: 64px;
             border: none;
             border-radius: 18px;
@@ -393,20 +392,11 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.14);
             -webkit-tap-highlight-color: transparent;
             touch-action: manipulation;
-        }
-
-        .phonics-btn {
             background: #66BB6A;
             color: white;
         }
 
-        .trace-btn {
-            background: #5C6BC0;
-            color: white;
-        }
-
-        .phonics-btn:active,
-        .trace-btn:active {
+        .phonics-btn:active {
             transform: scale(0.96);
         }
 
@@ -431,85 +421,6 @@
             animation: letterWiggle 0.55s ease;
         }
 
-        .letter-card.trace-prepare {
-            animation: cardPulse 0.55s ease;
-            border-color: #5C6BC0;
-            background: #E8EAF6;
-            z-index: 50;
-            position: relative;
-        }
-
-        .letter-card.trace-prepare .letter {
-            animation: letterGrow 0.55s ease;
-        }
-
-        .letter-card.trace-prepare .emoji {
-            animation: emojiBounce 0.55s ease;
-        }
-
-        .letter-card.tracing-launch {
-            animation: cardLaunch 0.65s ease-in forwards;
-            z-index: 100;
-            position: relative;
-        }
-
-        .trace-btn.launching {
-            animation: btnCelebrate 0.4s ease;
-        }
-
-        .sparkle {
-            position: fixed;
-            font-size: 1.8rem;
-            pointer-events: none;
-            z-index: 200;
-            animation: sparkleFloat 0.85s ease-out forwards;
-        }
-
-        .trace-launch-overlay {
-            position: fixed;
-            inset: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: rgba(102, 126, 234, 0.88);
-            z-index: 150;
-            pointer-events: none;
-            animation: overlayFadeIn 0.25s ease;
-        }
-
-        .trace-launch-overlay.hiding {
-            animation: overlayFadeOut 0.35s ease forwards;
-        }
-
-        .trace-launch-letter {
-            font-size: 8rem;
-            font-weight: bold;
-            color: white;
-            text-shadow: 0 6px 20px rgba(0,0,0,0.25);
-            animation: launchLetterPop 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
-            line-height: 1;
-        }
-
-        .trace-launch-emoji {
-            font-size: 4rem;
-            margin-top: 8px;
-            animation: launchEmojiSpin 0.7s ease;
-        }
-
-        .trace-launch-message {
-            margin-top: 20px;
-            font-size: 1.6rem;
-            font-weight: bold;
-            color: white;
-            text-align: center;
-            animation: launchMessageSlide 0.5s ease 0.15s both;
-        }
-
-        .alphabet-grid.locked {
-            pointer-events: none;
-        }
-
         @keyframes cardBounce {
             0%, 100% { transform: scale(1); }
             35% { transform: scale(1.06); }
@@ -520,62 +431,6 @@
             0%, 100% { transform: rotate(0deg) scale(1); }
             25% { transform: rotate(-10deg) scale(1.12); }
             75% { transform: rotate(10deg) scale(1.12); }
-        }
-
-        @keyframes cardPulse {
-            0%, 100% { transform: scale(1); box-shadow: 0 6px 14px rgba(0,0,0,0.12); }
-            50% { transform: scale(1.05); box-shadow: 0 12px 28px rgba(92, 107, 192, 0.35); }
-        }
-
-        @keyframes letterGrow {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.2); color: #5C6BC0; }
-        }
-
-        @keyframes emojiBounce {
-            0%, 100% { transform: translateY(0) scale(1); }
-            50% { transform: translateY(-12px) scale(1.15); }
-        }
-
-        @keyframes cardLaunch {
-            0% { transform: scale(1.05); opacity: 1; }
-            100% { transform: scale(0.6) translateY(-40px); opacity: 0; }
-        }
-
-        @keyframes btnCelebrate {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-        }
-
-        @keyframes sparkleFloat {
-            0% { transform: translateY(0) scale(0.2) rotate(0deg); opacity: 1; }
-            100% { transform: translateY(-100px) scale(1.3) rotate(180deg); opacity: 0; }
-        }
-
-        @keyframes overlayFadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        @keyframes overlayFadeOut {
-            from { opacity: 1; }
-            to { opacity: 0; }
-        }
-
-        @keyframes launchLetterPop {
-            0% { transform: scale(0.2); opacity: 0; }
-            60% { transform: scale(1.15); opacity: 1; }
-            100% { transform: scale(1); opacity: 1; }
-        }
-
-        @keyframes launchEmojiSpin {
-            0% { transform: scale(0) rotate(-30deg); opacity: 0; }
-            100% { transform: scale(1) rotate(0deg); opacity: 1; }
-        }
-
-        @keyframes launchMessageSlide {
-            from { transform: translateY(20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
         }
 
         @media (max-width: 480px) {
@@ -597,8 +452,7 @@
                 font-size: 1rem;
             }
 
-            .phonics-btn,
-            .trace-btn {
+            .phonics-btn {
                 min-height: 60px;
                 font-size: 1rem;
             }
@@ -611,8 +465,8 @@
 
         <header class="header">
             <h1 id="headerTitle">🎨 A-Z Alphabet Adventure 🎨</h1>
-            <p id="headerSubtitle">Tap Phonics to hear, or Trace to practice!</p>
-            <p class="intro">Learn the <strong>English alphabet A to Z</strong> with phonics sounds, example words and letter tracing. Free interactive tool for <strong>preschoolers and kids</strong> — hear "A is for Apple", practice letters in your name, and build early reading skills.</p>
+            <p id="headerSubtitle">Tap Phonics to hear each letter!</p>
+            <p class="intro">Learn the <strong>English alphabet A to Z</strong> with phonics sounds and example words. Free interactive tool for <strong>preschoolers and kids</strong> — hear "A is for Apple", practice letters in your name, and build early reading skills.</p>
         </header>
 
         <main>
@@ -631,7 +485,7 @@
 
         <section class="seo-section" id="about-alphabet">
             <h2>Complete English Alphabet A-Z</h2>
-            <p>All <strong>26 letters</strong> of the English alphabet with phonics example words. Tap any letter card above to hear pronunciation and practice tracing.</p>
+            <p>All <strong>26 letters</strong> of the English alphabet with phonics example words. Tap any letter card above to hear pronunciation.</p>
             <p class="letter-list">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
 
             <h2>A-Z Letters with Example Words</h2>
@@ -677,10 +531,6 @@
                 <p>Tap Phonics on any letter card to hear the letter name, sound and example word spoken aloud — for example, "A is for Apple. Ah, ah, apple!"</p>
             </div>
             <div class="faq-item">
-                <h3>What does the Trace button do?</h3>
-                <p>Trace launches letter-writing practice. In the mobile app it opens a tracing screen; in the browser it previews the tracing animation.</p>
-            </div>
-            <div class="faq-item">
                 <h3>Looking for Hindi letters?</h3>
                 <p>Also try our <a href="hindi-varnmala.html" style="color:#FFD54F;">Hindi Varnmala</a> page to learn स्वर, व्यंजन and मात्रा.</p>
             </div>
@@ -722,7 +572,6 @@
 
         let kidName = 'Friend';
         let spellingInProgress = false;
-        let traceAnimationInProgress = false;
 
         function speakText(text) {
             if (!text) return;
@@ -737,14 +586,6 @@
                 utterance.rate = 0.78;
                 utterance.pitch = 1.2;
                 window.speechSynthesis.speak(utterance);
-            }
-        }
-
-        function stopSpeech() {
-            if (typeof Android !== 'undefined' && Android.stopSpeech) {
-                Android.stopSpeech();
-            } else if ('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
             }
         }
 
@@ -772,81 +613,6 @@
             card.addEventListener('animationend', () => {
                 card.classList.remove('phonics-pop');
             }, { once: true });
-        }
-
-        function spawnSparkles(card) {
-            const rect = card.getBoundingClientRect();
-            const emojis = ['⭐', '✨', '🌟', '💫', '🎉'];
-            for (let i = 0; i < 10; i++) {
-                const sparkle = document.createElement('div');
-                sparkle.className = 'sparkle';
-                sparkle.textContent = emojis[i % emojis.length];
-                sparkle.style.left = (rect.left + rect.width * (0.15 + Math.random() * 0.7)) + 'px';
-                sparkle.style.top = (rect.top + rect.height * (0.3 + Math.random() * 0.4)) + 'px';
-                sparkle.style.animationDelay = (i * 0.06) + 's';
-                document.body.appendChild(sparkle);
-                setTimeout(() => sparkle.remove(), 1000);
-            }
-        }
-
-        function showTraceLaunchOverlay(letter, data) {
-            const existing = document.getElementById('traceLaunchOverlay');
-            if (existing) existing.remove();
-
-            const overlay = document.createElement('div');
-            overlay.id = 'traceLaunchOverlay';
-            overlay.className = 'trace-launch-overlay';
-            overlay.innerHTML = `
-                <div class="trace-launch-letter">${letter}</div>
-                <div class="trace-launch-emoji">${data.emoji}</div>
-                <div class="trace-launch-message">Let's trace ${letter}! ✏️</div>
-            `;
-            document.body.appendChild(overlay);
-            return overlay;
-        }
-
-        function animateAndOpenTracing(letter, card, traceBtn) {
-            if (traceAnimationInProgress) return;
-            traceAnimationInProgress = true;
-
-            const grid = document.getElementById('alphabetGrid');
-            const data = letterData[letter];
-            if (!data) {
-                traceAnimationInProgress = false;
-                return;
-            }
-
-            stopSpeech();
-            grid.classList.add('locked');
-
-            document.querySelectorAll('.letter-card').forEach(c => {
-                c.classList.remove('active', 'trace-prepare', 'tracing-launch', 'phonics-pop');
-            });
-            card.classList.add('active', 'trace-prepare');
-            if (traceBtn) traceBtn.classList.add('launching');
-
-            spawnSparkles(card);
-            speakText(`Let's trace ${letter}!`);
-
-            const overlay = showTraceLaunchOverlay(letter, data);
-
-            setTimeout(() => {
-                card.classList.remove('trace-prepare');
-                card.classList.add('tracing-launch');
-            }, 550);
-
-            setTimeout(() => {
-                overlay.classList.add('hiding');
-                openTracing(letter);
-            }, 1200);
-
-            setTimeout(() => {
-                overlay.remove();
-                card.classList.remove('tracing-launch', 'active');
-                if (traceBtn) traceBtn.classList.remove('launching');
-                grid.classList.remove('locked');
-                traceAnimationInProgress = false;
-            }, 1550);
         }
 
         function getNameLetters(name) {
@@ -973,7 +739,7 @@
             kidName = name && name.trim() ? name.trim() : 'Friend';
             document.getElementById('headerTitle').textContent = `Hi ${kidName}! 🎨`;
             document.getElementById('headerSubtitle').textContent =
-                'Tap Phonics to hear, or Trace to practice!';
+                'Tap Phonics to hear each letter!';
 
             renderSpellNameSection();
             renderNamePracticeSection();
@@ -1003,7 +769,6 @@
                     </div>
                     <div class="card-actions">
                         <button class="phonics-btn" aria-label="Hear phonics for letter ${letter}">🔊 Phonics</button>
-                        <button class="trace-btn" aria-label="Trace letter ${letter}">✏️ Trace</button>
                     </div>
                 `;
 
@@ -1012,77 +777,12 @@
                     speakLetter(letter, card);
                 });
 
-                const traceBtn = card.querySelector('.trace-btn');
-                traceBtn.addEventListener('click', (event) => {
-                    event.stopPropagation();
-                    animateAndOpenTracing(letter, card, traceBtn);
-                });
-
                 grid.appendChild(card);
             });
 
             if (typeof Android !== 'undefined' && Android.getKidName) {
                 setKidProfile(Android.getKidName());
             }
-        }
-
-        function openTracing(letter) {
-            if (typeof Android !== 'undefined' && Android.openTracing) {
-                Android.openTracing(letter);
-            } else {
-                console.log('Opening tracing for:', letter);
-            }
-        }
-
-        function showTracingCompletion(letter, name) {
-            const displayName = name && name.trim() ? name.trim() : kidName;
-            const inName = displayName.toUpperCase().includes(letter);
-            const data = letterData[letter];
-            if (data) {
-                speakText(inName
-                    ? `Great job ${displayName}! You traced ${letter} from your name!`
-                    : `Great job ${displayName}! ${data.sound}`);
-            }
-
-            const celebration = document.createElement('div');
-            celebration.style.cssText = `
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
-                padding: 30px;
-                border-radius: 20px;
-                text-align: center;
-                z-index: 1000;
-                box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-                animation: popIn 0.5s ease;
-            `;
-            celebration.innerHTML = `
-                <div style="font-size: 3rem;">🎉</div>
-                <h2 style="margin: 10px 0;">Great Job, ${displayName}!</h2>
-                <p>${inName ? `You traced ${letter} from your name!` : `You traced ${letter} perfectly!`}</p>
-                ${data ? `<p style="margin-top:8px;opacity:0.9;">${data.phonics}</p>` : ''}
-            `;
-            document.body.appendChild(celebration);
-
-            if (!document.getElementById('celebrationStyles')) {
-                const style = document.createElement('style');
-                style.id = 'celebrationStyles';
-                style.textContent = `
-                    @keyframes popIn {
-                        0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0; }
-                        100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-                    }
-                `;
-                document.head.appendChild(style);
-            }
-
-            setTimeout(() => {
-                celebration.style.animation = 'popIn 0.5s ease reverse';
-                setTimeout(() => celebration.remove(), 500);
-            }, 2200);
         }
 
         document.addEventListener('DOMContentLoaded', createAlphabetGrid);
