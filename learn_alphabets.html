@@ -13,6 +13,7 @@
     <link rel="alternate" hreflang="en" href="https://www.intelligentmind.online/learn_alphabets.html">
     <link rel="alternate" hreflang="x-default" href="https://www.intelligentmind.online/learn_alphabets.html">
     <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
     <meta property="og:type" content="website">
@@ -20,14 +21,14 @@
     <meta property="og:title" content="A-Z Alphabet Adventure — Learn English Letters with Phonics">
     <meta property="og:description" content="Interactive A-Z alphabet for kids: tap Phonics to hear letter sounds and spell your name. Free in any browser.">
     <meta property="og:url" content="https://www.intelligentmind.online/learn_alphabets.html">
-    <meta property="og:image" content="https://www.intelligentmind.online/assets/favicon.png">
+    <meta property="og:image" content="https://www.intelligentmind.online/assets/intelligent-mind-logo.png">
     <meta property="og:image:alt" content="A-Z Alphabet Adventure for kids">
     <meta property="og:locale" content="en_US">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="A-Z Alphabet Adventure — Learn English Letters">
     <meta name="twitter:description" content="Free interactive alphabet with phonics and name spelling for preschoolers and kids.">
-    <meta name="twitter:image" content="https://www.intelligentmind.online/assets/favicon.png">
+    <meta name="twitter:image" content="https://www.intelligentmind.online/assets/intelligent-mind-logo.png">
 
     <script type="application/ld+json">
     {
@@ -141,13 +142,22 @@
         }
 
         .back-link {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             margin-bottom: 12px;
             color: white;
             text-decoration: none;
             font-size: 14px;
             font-weight: 600;
             opacity: 0.95;
+        }
+
+        .back-link img {
+            width: 22px;
+            height: 22px;
+            border-radius: 6px;
+            object-fit: cover;
         }
 
         .back-link:hover { text-decoration: underline; }
@@ -461,7 +471,7 @@
 </head>
 <body>
     <div class="container">
-        <a class="back-link" href="/">← Intelligent Mind</a>
+        <a class="back-link" href="/"><img src="assets/intelligent-mind-logo.png" width="22" height="22" alt="Intelligent Mind logo">← Intelligent Mind</a>
 
         <header class="header">
             <h1 id="headerTitle">🎨 A-Z Alphabet Adventure 🎨</h1>
