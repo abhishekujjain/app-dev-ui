@@ -30,6 +30,10 @@
       <image:loc>https://www.intelligentmind.online/assets/abc-kids-learn.png</image:loc>
       <image:title>ABC Kids Learn Android app</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.intelligentmind.online/assets/ludo-champs-game.png</image:loc>
+      <image:title>Ludo Champs Game Android app</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/geo-camera-map.html</loc>
@@ -43,7 +47,7 @@
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <image:image><image:loc>https://www.intelligentmind.online/assets/mausam.webp</image:loc><image:title>Weather app icon</image:title></image:image>
+    <image:image><image:loc>https://www.intelligentmind.online/assets/mausam.webp</image:loc><image:title>Local Weather Forecast app icon</image:title></image:image>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/digital-compass.html</loc>
@@ -127,6 +131,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <image:image><image:loc>https://www.intelligentmind.online/assets/abc-kids-learn.png</image:loc><image:title>ABC Kids app icon</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.intelligentmind.online/learn_alphabets.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.intelligentmind.online/hindi-varnmala.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.intelligentmind.online/privacy.html</loc>

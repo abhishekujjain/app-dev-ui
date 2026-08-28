@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Z Alphabet Adventure | Learn English Letters with Phonics for Kids | Intelligent mind</title>
+    <meta name="description" content="Free interactive A-Z English alphabet for kids. Hear phonics pronunciation, spell your name, and learn all 26 letters with fun example words — Apple, Ball, Cat and more.">
+    <meta name="keywords" content="English alphabet, A-Z letters, learn alphabet for kids, phonics, learn alphabets, preschool letters, ABC learning, alphabet sounds, spell your name">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="theme-color" content="#667eea">
+    <meta name="application-name" content="A-Z Alphabet Adventure">
+    <link rel="canonical" href="https://www.intelligentmind.online/learn_alphabets.html">
+    <link rel="alternate" hreflang="en" href="https://www.intelligentmind.online/learn_alphabets.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.intelligentmind.online/learn_alphabets.html">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Intelligent mind">
+    <meta property="og:title" content="A-Z Alphabet Adventure — Learn English Letters with Phonics">
+    <meta property="og:description" content="Interactive A-Z alphabet for kids: tap Phonics to hear letter sounds and spell your name. Free in any browser.">
+    <meta property="og:url" content="https://www.intelligentmind.online/learn_alphabets.html">
+    <meta property="og:image" content="https://www.intelligentmind.online/assets/intelligent-mind-logo.png">
+    <meta property="og:image:alt" content="A-Z Alphabet Adventure for kids">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="A-Z Alphabet Adventure — Learn English Letters">
+    <meta name="twitter:description" content="Free interactive alphabet with phonics and name spelling for preschoolers and kids.">
+    <meta name="twitter:image" content="https://www.intelligentmind.online/assets/intelligent-mind-logo.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.intelligentmind.online/" },
+        { "@type": "ListItem", "position": 2, "name": "A-Z Alphabet Adventure", "item": "https://www.intelligentmind.online/learn_alphabets.html" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LearningResource",
+      "name": "A-Z Alphabet Adventure",
+      "alternateName": ["English alphabet for kids", "ABC learning", "phonics alphabet"],
+      "description": "Interactive A-Z English alphabet with phonics audio and personalized name spelling for children.",
+      "url": "https://www.intelligentmind.online/learn_alphabets.html",
+      "inLanguage": "en",
+      "learningResourceType": "Interactive tool",
+      "educationalLevel": "Preschool",
+      "isAccessibleForFree": true,
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": "student",
+        "audienceType": "preschoolers and young children learning the English alphabet"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Intelligent mind",
+        "url": "https://www.intelligentmind.online/"
+      },
+      "teaches": "English alphabet A through Z with phonics sounds"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do kids learn the English alphabet on this page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kids scroll through all 26 letter cards from A to Z. Each card has a Phonics button to hear the letter sound and example word."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is phonics in alphabet learning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Phonics teaches the sounds letters make. For example, A says 'ah, ah, apple' and B says 'buh, buh, ball'. This page plays phonics audio for every letter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can children practice spelling their name?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. When a child's name is provided, the page highlights letters in their name, lets them tap each letter tile, and plays the full name spelling aloud."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the A-Z Alphabet Adventure free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — this interactive English alphabet tool is completely free and works in any modern web browser with no download required."
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 24px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 0.95;
+        }
+
+        .back-link img {
+            width: 22px;
+            height: 22px;
+            border-radius: 6px;
+            object-fit: cover;
+        }
+
+        .back-link:hover { text-decoration: underline; }
+
+        .intro {
+            max-width: 680px;
+            margin: 0 auto 8px;
+            font-size: 0.95rem;
+            line-height: 1.55;
+            opacity: 0.92;
+        }
+
+        .seo-section {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            padding: 20px;
+            margin-top: 32px;
+            color: white;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .seo-section h2 {
+            font-size: 1.15rem;
+            margin: 20px 0 10px;
+            text-align: center;
+        }
+
+        .seo-section h2:first-child { margin-top: 0; }
+
+        .letter-list {
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: bold;
+            letter-spacing: 0.08em;
+            margin: 8px 0 14px;
+        }
+
+        .alphabet-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 13px;
+        }
+
+        .alphabet-table th,
+        .alphabet-table td {
+            padding: 6px 8px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .alphabet-table th { font-weight: 700; }
+
+        .faq-item { margin-bottom: 14px; }
+        .faq-item h3 { font-size: 15px; margin: 0 0 4px; }
+        .faq-item p { margin: 0; opacity: 0.92; }
+
+        .site-footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            font-size: 13px;
+            margin-top: 24px;
+            padding-bottom: 8px;
+        }
+
+        .site-footer a { color: white; }
+
+        .panel {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            text-align: center;
+            color: white;
+        }
+
+        .panel h2 {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            opacity: 0.95;
+        }
+
+        .chip-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .chip {
+            background: #FFD54F;
+            color: #3E2723;
+            border: none;
+            border-radius: 16px;
+            min-width: 64px;
+            min-height: 64px;
+            padding: 16px 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .chip:active {
+            transform: scale(0.95);
+        }
+
+        .spell-name-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+
+        .spell-letter {
+            min-width: 64px;
+            min-height: 64px;
+            padding: 14px 16px;
+            border: 2px solid rgba(255,255,255,0.7);
+            border-radius: 16px;
+            background: white;
+            color: #5C6BC0;
+            font-size: 1.8rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .spell-letter.active {
+            background: #FFD54F;
+            color: #3E2723;
+            transform: scale(1.08);
+        }
+
+        .action-btn {
+            background: white;
+            color: #5C6BC0;
+            border: none;
+            border-radius: 99px;
+            min-height: 56px;
+            padding: 16px 28px;
+            font-size: 1.15rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .action-btn:active {
+            transform: scale(0.97);
+        }
+
+        .alphabet-grid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            padding: 8px 0 24px;
+        }
+
+        .letter-card {
+            width: min(92vw, 440px);
+            aspect-ratio: 1 / 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            border-radius: 24px;
+            padding: 20px 18px 18px;
+            text-align: center;
+            transition: all 0.2s ease;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+            border: 4px solid transparent;
+            box-sizing: border-box;
+        }
+
+        .letter-card.active {
+            border-color: #FF9800;
+            background: #FFF8E1;
+        }
+
+        .letter-card.in-name {
+            border-color: #FFD54F;
+        }
+
+        .card-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            width: 100%;
+            gap: 6px;
+        }
+
+        .letter-card .letter {
+            font-size: 5.5rem;
+            font-weight: bold;
+            color: #667eea;
+            line-height: 1;
+        }
+
+        .letter-card .emoji {
+            font-size: 2.8rem;
+            line-height: 1;
+        }
+
+        .letter-card .word {
+            font-size: 1.15rem;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .letter-card .phonics {
+            font-size: 0.9rem;
+            color: #5D4037;
+            font-weight: 600;
+        }
+
+        .card-actions {
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+            width: 100%;
+            margin-top: 8px;
+        }
+
+        .phonics-btn {
+            width: 100%;
+            min-height: 64px;
+            border: none;
+            border-radius: 18px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 14px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.14);
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            background: #66BB6A;
+            color: white;
+        }
+
+        .phonics-btn:active {
+            transform: scale(0.96);
+        }
+
+        .letter-card .name-badge {
+            display: none;
+            font-size: 0.85rem;
+            color: #F57C00;
+            font-weight: bold;
+        }
+
+        .letter-card.in-name .name-badge {
+            display: block;
+        }
+
+        .letter-card.phonics-pop {
+            animation: cardBounce 0.55s ease;
+            border-color: #66BB6A;
+            background: #E8F5E9;
+        }
+
+        .letter-card.phonics-pop .letter {
+            animation: letterWiggle 0.55s ease;
+        }
+
+        @keyframes cardBounce {
+            0%, 100% { transform: scale(1); }
+            35% { transform: scale(1.06); }
+            65% { transform: scale(0.98); }
+        }
+
+        @keyframes letterWiggle {
+            0%, 100% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(-10deg) scale(1.12); }
+            75% { transform: rotate(10deg) scale(1.12); }
+        }
+
+        @media (max-width: 480px) {
+            .letter-card {
+                width: min(94vw, 440px);
+                padding: 16px 14px 14px;
+                border-radius: 20px;
+            }
+
+            .letter-card .letter {
+                font-size: 4.8rem;
+            }
+
+            .letter-card .emoji {
+                font-size: 2.4rem;
+            }
+
+            .letter-card .word {
+                font-size: 1rem;
+            }
+
+            .phonics-btn {
+                min-height: 60px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="back-link" href="/"><img src="assets/intelligent-mind-logo.png" width="22" height="22" alt="Intelligent mind logo">← Intelligent mind</a>
+
+        <header class="header">
+            <h1 id="headerTitle">🎨 A-Z Alphabet Adventure 🎨</h1>
+            <p id="headerSubtitle">Tap Phonics to hear each letter!</p>
+            <p class="intro">Learn the <strong>English alphabet A to Z</strong> with phonics sounds and example words. Free interactive tool for <strong>preschoolers and kids</strong> — hear "A is for Apple", practice letters in your name, and build early reading skills.</p>
+        </header>
+
+        <main>
+        <section class="panel" id="spellNameSection" style="display:none;" aria-labelledby="spellNameTitle">
+            <h2 id="spellNameTitle">Spell your name</h2>
+            <div class="spell-name-row" id="spellNameRow"></div>
+            <button class="action-btn" id="btnSpellName">🔊 Hear my name</button>
+        </section>
+
+        <section class="panel" id="nameLettersSection" style="display:none;" aria-labelledby="nameLettersTitle">
+            <h2 id="nameLettersTitle">Practice letters in your name</h2>
+            <div class="chip-row" id="nameLetterRow"></div>
+        </section>
+
+        <section class="alphabet-grid" id="alphabetGrid" aria-label="English alphabet letters A to Z"></section>
+
+        <section class="seo-section" id="about-alphabet">
+            <h2>Complete English Alphabet A-Z</h2>
+            <p>All <strong>26 letters</strong> of the English alphabet with phonics example words. Tap any letter card above to hear pronunciation.</p>
+            <p class="letter-list">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+
+            <h2>A-Z Letters with Example Words</h2>
+            <table class="alphabet-table">
+                <thead><tr><th>Letter</th><th>Word</th><th>Phonics</th></tr></thead>
+                <tbody>
+                    <tr><td>A</td><td>Apple 🍎</td><td>ah, ah, apple!</td></tr>
+                    <tr><td>B</td><td>Ball ⚽</td><td>buh, buh, ball!</td></tr>
+                    <tr><td>C</td><td>Cat 🐱</td><td>kuh, kuh, cat!</td></tr>
+                    <tr><td>D</td><td>Dog 🐶</td><td>duh, duh, dog!</td></tr>
+                    <tr><td>E</td><td>Elephant 🐘</td><td>eh, eh, elephant!</td></tr>
+                    <tr><td>F</td><td>Fish 🐟</td><td>fff, fff, fish!</td></tr>
+                    <tr><td>G</td><td>Goat 🐐</td><td>guh, guh, goat!</td></tr>
+                    <tr><td>H</td><td>Hat 🎩</td><td>huh, huh, hat!</td></tr>
+                    <tr><td>I</td><td>Igloo 🧊</td><td>ih, ih, igloo!</td></tr>
+                    <tr><td>J</td><td>Juice 🧃</td><td>juh, juh, juice!</td></tr>
+                    <tr><td>K</td><td>Kite 🪁</td><td>kuh, kuh, kite!</td></tr>
+                    <tr><td>L</td><td>Lion 🦁</td><td>lll, lll, lion!</td></tr>
+                    <tr><td>M</td><td>Moon 🌙</td><td>mmm, mmm, moon!</td></tr>
+                    <tr><td>N</td><td>Nest 🪺</td><td>nnn, nnn, nest!</td></tr>
+                    <tr><td>O</td><td>Orange 🍊</td><td>oh, oh, orange!</td></tr>
+                    <tr><td>P</td><td>Penguin 🐧</td><td>puh, puh, penguin!</td></tr>
+                    <tr><td>Q</td><td>Queen 👑</td><td>kwuh, kwuh, queen!</td></tr>
+                    <tr><td>R</td><td>Rabbit 🐰</td><td>rrr, rrr, rabbit!</td></tr>
+                    <tr><td>S</td><td>Sun ☀️</td><td>sss, sss, sun!</td></tr>
+                    <tr><td>T</td><td>Tiger 🐯</td><td>tuh, tuh, tiger!</td></tr>
+                    <tr><td>U</td><td>Umbrella ☂️</td><td>uh, uh, umbrella!</td></tr>
+                    <tr><td>V</td><td>Van 🚐</td><td>vvv, vvv, van!</td></tr>
+                    <tr><td>W</td><td>Whale 🐳</td><td>wuh, wuh, whale!</td></tr>
+                    <tr><td>X</td><td>Xylophone 🎼</td><td>kss, kss, xylophone!</td></tr>
+                    <tr><td>Y</td><td>Yo-yo 🪀</td><td>yuh, yuh, yo-yo!</td></tr>
+                    <tr><td>Z</td><td>Zebra 🦓</td><td>zzz, zzz, zebra!</td></tr>
+                </tbody>
+            </table>
+
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What age is this alphabet tool for?</h3>
+                <p>Preschoolers and young children (ages 3–7) learning their ABCs, letter sounds and early phonics.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How does the Phonics button work?</h3>
+                <p>Tap Phonics on any letter card to hear the letter name, sound and example word spoken aloud — for example, "A is for Apple. Ah, ah, apple!"</p>
+            </div>
+            <div class="faq-item">
+                <h3>Looking for Hindi letters?</h3>
+                <p>Also try our <a href="hindi-varnmala.html" style="color:#FFD54F;">Hindi Varnmala</a> page to learn स्वर, व्यंजन and मात्रा.</p>
+            </div>
+        </section>
+        </main>
+
+        <footer class="site-footer">Made with 💖 by <a href="/">Intelligent mind</a> to help little ones learn their ABCs</footer>
+    </div>
+
+    <script>
+        const letterData = {
+            A: { word: 'Apple', emoji: '🍎', phonics: 'ah, ah, apple!', sound: 'A is for Apple. Ah, ah, apple!' },
+            B: { word: 'Ball', emoji: '⚽', phonics: 'buh, buh, ball!', sound: 'B is for Ball. Buh, buh, ball!' },
+            C: { word: 'Cat', emoji: '🐱', phonics: 'kuh, kuh, cat!', sound: 'C is for Cat. Kuh, kuh, cat!' },
+            D: { word: 'Dog', emoji: '🐶', phonics: 'duh, duh, dog!', sound: 'D is for Dog. Duh, duh, dog!' },
+            E: { word: 'Elephant', emoji: '🐘', phonics: 'eh, eh, elephant!', sound: 'E is for Elephant. Eh, eh, elephant!' },
+            F: { word: 'Fish', emoji: '🐟', phonics: 'fff, fff, fish!', sound: 'F is for Fish. Fff, fff, fish!' },
+            G: { word: 'Goat', emoji: '🐐', phonics: 'guh, guh, goat!', sound: 'G is for Goat. Guh, guh, goat!' },
+            H: { word: 'Hat', emoji: '🎩', phonics: 'huh, huh, hat!', sound: 'H is for Hat. Huh, huh, hat!' },
+            I: { word: 'Igloo', emoji: '🧊', phonics: 'ih, ih, igloo!', sound: 'I is for Igloo. Ih, ih, igloo!' },
+            J: { word: 'Juice', emoji: '🧃', phonics: 'juh, juh, juice!', sound: 'J is for Juice. Juh, juh, juice!' },
+            K: { word: 'Kite', emoji: '🪁', phonics: 'kuh, kuh, kite!', sound: 'K is for Kite. Kuh, kuh, kite!' },
+            L: { word: 'Lion', emoji: '🦁', phonics: 'lll, lll, lion!', sound: 'L is for Lion. Lll, lll, lion!' },
+            M: { word: 'Moon', emoji: '🌙', phonics: 'mmm, mmm, moon!', sound: 'M is for Moon. Mmm, mmm, moon!' },
+            N: { word: 'Nest', emoji: '🪺', phonics: 'nnn, nnn, nest!', sound: 'N is for Nest. Nnn, nnn, nest!' },
+            O: { word: 'Orange', emoji: '🍊', phonics: 'oh, oh, orange!', sound: 'O is for Orange. Oh, oh, orange!' },
+            P: { word: 'Penguin', emoji: '🐧', phonics: 'puh, puh, penguin!', sound: 'P is for Penguin. Puh, puh, penguin!' },
+            Q: { word: 'Queen', emoji: '👑', phonics: 'kwuh, kwuh, queen!', sound: 'Q is for Queen. Kwuh, kwuh, queen!' },
+            R: { word: 'Rabbit', emoji: '🐰', phonics: 'rrr, rrr, rabbit!', sound: 'R is for Rabbit. Rrr, rrr, rabbit!' },
+            S: { word: 'Sun', emoji: '☀️', phonics: 'sss, sss, sun!', sound: 'S is for Sun. Sss, sss, sun!' },
+            T: { word: 'Tiger', emoji: '🐯', phonics: 'tuh, tuh, tiger!', sound: 'T is for Tiger. Tuh, tuh, tiger!' },
+            U: { word: 'Umbrella', emoji: '☂️', phonics: 'uh, uh, umbrella!', sound: 'U is for Umbrella. Uh, uh, umbrella!' },
+            V: { word: 'Van', emoji: '🚐', phonics: 'vvv, vvv, van!', sound: 'V is for Van. Vvv, vvv, van!' },
+            W: { word: 'Whale', emoji: '🐳', phonics: 'wuh, wuh, whale!', sound: 'W is for Whale. Wuh, wuh, whale!' },
+            X: { word: 'Xylophone', emoji: '🎼', phonics: 'kss, kss, xylophone!', sound: 'X is for Xylophone. Kss, kss, xylophone!' },
+            Y: { word: 'Yo-yo', emoji: '🪀', phonics: 'yuh, yuh, yo-yo!', sound: 'Y is for Yo-yo. Yuh, yuh, yo-yo!' },
+            Z: { word: 'Zebra', emoji: '🦓', phonics: 'zzz, zzz, zebra!', sound: 'Z is for Zebra. Zzz, zzz, zebra!' }
+        };
+
+        let kidName = 'Friend';
+        let spellingInProgress = false;
+
+        function speakText(text) {
+            if (!text) return;
+            // Android WebView speechSynthesis is unreliable — use native TTS bridge.
+            if (typeof Android !== 'undefined' && Android.speak) {
+                Android.speak(text);
+                return;
+            }
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.rate = 0.78;
+                utterance.pitch = 1.2;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        function speakLetter(letter, card) {
+            const data = letterData[letter];
+            if (!data) return;
+            if (card) {
+                animatePhonicsSelect(card, letter);
+            } else {
+                document.querySelectorAll('.letter-card').forEach(c => {
+                    c.classList.toggle('active', c.dataset.letter === letter);
+                });
+            }
+            speakText(data.sound);
+        }
+
+        function animatePhonicsSelect(card, letter) {
+            document.querySelectorAll('.letter-card').forEach(c => {
+                c.classList.remove('active', 'phonics-pop');
+            });
+            card.classList.add('active');
+            card.classList.remove('phonics-pop');
+            void card.offsetWidth;
+            card.classList.add('phonics-pop');
+            card.addEventListener('animationend', () => {
+                card.classList.remove('phonics-pop');
+            }, { once: true });
+        }
+
+        function getNameLetters(name) {
+            const letters = [];
+            for (const char of name.toUpperCase()) {
+                if (char >= 'A' && char <= 'Z') {
+                    letters.push(char);
+                }
+            }
+            return letters;
+        }
+
+        function getUniqueNameLetters(name) {
+            const seen = new Set();
+            const letters = [];
+            for (const char of getNameLetters(name)) {
+                if (!seen.has(char)) {
+                    seen.add(char);
+                    letters.push(char);
+                }
+            }
+            return letters;
+        }
+
+        function isLetterInName(letter) {
+            return kidName.toUpperCase().includes(letter);
+        }
+
+        function buildNameSound(name) {
+            const letters = getNameLetters(name);
+            if (letters.length === 0) return '';
+            const parts = letters.map(letter => {
+                const data = letterData[letter];
+                return data ? `${letter}... ${data.phonics}` : letter;
+            });
+            return `Let's spell ${name}. ` + parts.join(' ... ') + ` ... ${name}!`;
+        }
+
+        function spellNameAloud() {
+            if (spellingInProgress) return;
+            const letters = getNameLetters(kidName);
+            if (letters.length === 0) return;
+
+            spellingInProgress = true;
+            const tiles = document.querySelectorAll('.spell-letter');
+            let index = 0;
+
+            function speakNext() {
+                if (index >= letters.length) {
+                    tiles.forEach(tile => tile.classList.remove('active'));
+                    speakText(kidName + '!');
+                    spellingInProgress = false;
+                    return;
+                }
+
+                const letter = letters[index];
+                tiles.forEach((tile, i) => tile.classList.toggle('active', i === index));
+                const data = letterData[letter];
+                speakText(data ? `${letter}. ${data.phonics}` : letter);
+
+                index++;
+                // Native TTS needs a bit longer between queued phrases.
+                const delay = (typeof Android !== 'undefined' && Android.speak) ? 1800 : 1400;
+                setTimeout(speakNext, delay);
+            }
+
+            speakNext();
+        }
+
+        function renderSpellNameSection() {
+            const section = document.getElementById('spellNameSection');
+            const row = document.getElementById('spellNameRow');
+            const letters = getNameLetters(kidName);
+
+            row.innerHTML = '';
+            if (letters.length === 0) {
+                section.style.display = 'none';
+                return;
+            }
+
+            section.style.display = 'block';
+            document.getElementById('spellNameTitle').textContent = `Spell ${kidName}'s name`;
+
+            letters.forEach(letter => {
+                const tile = document.createElement('button');
+                tile.className = 'spell-letter';
+                tile.textContent = letter;
+                tile.addEventListener('click', () => {
+                    speakLetter(letter);
+                    tile.classList.add('active');
+                    setTimeout(() => tile.classList.remove('active'), 500);
+                });
+                row.appendChild(tile);
+            });
+
+            document.getElementById('btnSpellName').onclick = spellNameAloud;
+        }
+
+        function renderNamePracticeSection() {
+            const nameLetters = getUniqueNameLetters(kidName);
+            const section = document.getElementById('nameLettersSection');
+            const row = document.getElementById('nameLetterRow');
+            row.innerHTML = '';
+
+            if (nameLetters.length === 0) {
+                section.style.display = 'none';
+                return;
+            }
+
+            section.style.display = 'block';
+            document.getElementById('nameLettersTitle').textContent =
+                `Practice letters in ${kidName}'s name`;
+
+            nameLetters.forEach(letter => {
+                const chip = document.createElement('button');
+                chip.className = 'chip';
+                chip.textContent = letter;
+                chip.addEventListener('click', () => speakLetter(letter));
+                row.appendChild(chip);
+            });
+        }
+
+        function setKidProfile(name) {
+            kidName = name && name.trim() ? name.trim() : 'Friend';
+            document.getElementById('headerTitle').textContent = `Hi ${kidName}! 🎨`;
+            document.getElementById('headerSubtitle').textContent =
+                'Tap Phonics to hear each letter!';
+
+            renderSpellNameSection();
+            renderNamePracticeSection();
+
+            document.querySelectorAll('.letter-card').forEach(card => {
+                const letter = card.dataset.letter;
+                card.classList.toggle('in-name', isLetterInName(letter));
+            });
+        }
+
+        function createAlphabetGrid() {
+            const grid = document.getElementById('alphabetGrid');
+            const letters = Object.keys(letterData).sort();
+
+            letters.forEach(letter => {
+                const data = letterData[letter];
+                const card = document.createElement('div');
+                card.className = 'letter-card';
+                card.dataset.letter = letter;
+                card.innerHTML = `
+                    <div class="card-main">
+                        <div class="letter">${letter}</div>
+                        <div class="emoji">${data.emoji}</div>
+                        <div class="word">${letter} is for ${data.word}</div>
+                        <div class="phonics">Say: "${data.phonics}"</div>
+                        <div class="name-badge">In your name</div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="phonics-btn" aria-label="Hear phonics for letter ${letter}">🔊 Phonics</button>
+                    </div>
+                `;
+
+                card.querySelector('.phonics-btn').addEventListener('click', (event) => {
+                    event.stopPropagation();
+                    speakLetter(letter, card);
+                });
+
+                grid.appendChild(card);
+            });
+
+            if (typeof Android !== 'undefined' && Android.getKidName) {
+                setKidProfile(Android.getKidName());
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', createAlphabetGrid);
+    </script>
+</body>
+</html>
