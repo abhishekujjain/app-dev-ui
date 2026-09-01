@@ -1,0 +1,14 @@
+.ad-wrap {
+  display: block;
+  width: 100%;
+  min-height: 280px;
+  margin: 24px auto;
+  text-align: center;
+  overflow: visible;
+}
+
+.ad-wrap ins.adsbygoogle {
+  display: block;
+  width: 100%;
+  min-height: 280px;
+}
